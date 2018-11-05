@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-class GameBoard():
+class GameBoard:
     """This class represents a game board"""
-    def __init__(self, row):
-        self.row = row
+    # def __init__(self):
+    #     self.name = name
     def generate_board(self, row):
+        self.row = row
         game_board = ''
         i = 0
         while i < row:
